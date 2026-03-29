@@ -30,8 +30,8 @@ api:
     write: 120s
     idle: 120s
 
-api_auth_keys: ["my-auth-key-1", "my-auth-key-2", "my-auth-key-3"]
+api_auth_keys: ["shati-key", "key-h1guys"]
 
-api_cors_allowed_origin_pattern: ""
-api_cors_allowed_headers: ["X-API-KEY", "X-API-VIEW", "Content-Type"]
-api_cors_allowed_methods: ["POST", "GET", "PUT", "DELETE"]
+api_cors_allowed_origin_pattern: "*"
+api_cors_allowed_headers: ["X-API-KEY", "X-API-VIEW", "Content-Type", "Authorization", "Accept"]
+api_cors_allowed_methods: ["POST", "GET", "PUT", "DELETE", "OPTIONS"]
